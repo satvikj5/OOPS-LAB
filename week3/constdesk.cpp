@@ -16,9 +16,9 @@ public:
     }
     Student()
     {
-        fullName = "gayi";
-        rollNumber = 501;
-        semPercentage = 85.0;
+        fullName = "S.H.Satvik";
+        rollNumber = 575;
+        semPercentage = 78.0;
         collegeName = "MVGRCE";
         collegeCode = 33;
     }
@@ -40,7 +40,7 @@ public:
 int main()
 {
     Student student1;
-    Student student2("keerthana", 550, 90, "MVGRCE", 33);
+    Student student2("Shiva", 555, 100, "MVGRCE", 33);
     student1.display();
     student2.display();
 }
