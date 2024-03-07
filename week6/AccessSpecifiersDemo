@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class AccessSpecifierDemo{
+    private:
+    int privar;
+    protected:
+    int provar;
+    public:
+    int pubvar;
+    public:
+    void setVar(int privalue,int provalue,int pubvalue){
+        privar=privalue;
+        provar=provalue;
+        pubvar=pubvalue;
+
+    }
+    public:
+    void getVar(){
+        cout<<"private value : "<<privar<<endl;
+        cout<<"protected value : "<<provar<<endl;
+        cout<<"public value : "<<pubvar<<endl;
+    }
+};
+int main(){
+    AccessSpecifierDemo obj;
+    obj.setVar(22,33,4);
+    obj.getVar();
+}
